@@ -1,4 +1,6 @@
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,4 +15,56 @@ body {
   font-size: 1.4rem;
   line-height: 1.6;
   font-family: "Poppins", sans-serif;
+}
+
+#container {
+  padding: 1.5rem;
+}
+
+.header {
+  height: 100vh;
+}
+
+.header__nav {
+  display: flex;
+
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__name {
+  font-size: 3rem;
+  color: #f6b400;
+
+  font-style: italic;
+}
+.logo__name strong {
+  color: black;
+}
+
+.header__nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+.header__nav ul li {
+  margin: 1rem;
+  border-bottom: 5px solid transparent;
+  transform: all 0.2s;
+}
+.header__nav ul li:hover {
+  border-bottom: 5px solid #ff6f24;
+}
+
+.header__cart img {
+  height: 2rem;
+  margin: 0 2rem;
 }
