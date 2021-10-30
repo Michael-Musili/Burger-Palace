@@ -36,12 +36,32 @@ body {
   align-items: center;
 }
 
-.logo__name {
+.heading-1 {
+  font-size: 3.2rem;
+}
+.heading-2 {
   font-size: 3rem;
-  color: #f6b400;
+}
+.heading-3 {
+  font-size: 2.2rem;
+}
 
+.btn {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #f6b400;
+  border: none;
+}
+
+.btn:hover {
+  outline: none;
+}
+
+.logo__name {
+  color: #f6b400;
   font-style: italic;
 }
+
 .logo__name strong {
   color: black;
 }
@@ -75,7 +95,69 @@ body {
   justify-content: space-around;
 }
 
+.CTA {
+  padding: 2rem;
+  width: 70%;
+}
+
+.CTA__text {
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+
+.CTA__btn {
+  border-radius: 2rem 15px 0 2rem;
+}
+
 .header__main--img img {
   height: 60rem;
   width: 100%;
+}
+
+/* Main section */
+.cards {
+  background-color: #e1ebe6;
+  padding: 25rem 0 10rem;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  width: 32rem;
+  border: 1px solid #7c3f48;
+  border-radius: 10px;
+  padding: 3rem 1.7rem;
+
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.card * {
+  margin-bottom: 2rem;
+}
+
+.card__icon-svg {
+  height: 8rem;
+  fill: #f6b400;
+}
+
+.card__heading {
+  color: #7c3f48;
+  font-weight: 500;
+}
+
+.card__text {
+  font-size: 1.5rem;
 }
