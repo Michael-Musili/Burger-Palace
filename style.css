@@ -22,7 +22,7 @@ body {
 }
 
 .header {
-  height: 100vh;
+  background: linear-gradient(95deg, #fff 50%, #f6b400 20%);
 }
 
 .header__nav {
@@ -67,4 +67,15 @@ body {
 .header__cart img {
   height: 2rem;
   margin: 0 2rem;
+}
+
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__main--img img {
+  height: 60rem;
+  width: 100%;
 }
