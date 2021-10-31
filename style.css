@@ -337,3 +337,27 @@ strong {
   top: 6rem;
   left: -3rem;
 }
+
+.section-download {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  background-color: #f6b400;
+  padding: 10rem 1rem;
+}
+
+.download__heading {
+  font-size: 4rem;
+  line-height: 1.8;
+  margin-bottom: 10rem;
+}
+
+.download__icon {
+  height: 5rem;
+}
+
+.download__image img {
+  height: 60rem;
+}
