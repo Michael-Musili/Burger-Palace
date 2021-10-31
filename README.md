@@ -17,7 +17,7 @@ I have used svg files, so you'll need to run the index.html on a server. You can
  
 
 ## Support and contact details
-If you encounter any issues, bugs or have any questions, ideas or concerns, kindly reach out to me via email : davidkiama98@gmail.com
+If you have any questions, ideas or concerns, kindly reach out to me via email : davidkiama98@gmail.com
 
 
 
