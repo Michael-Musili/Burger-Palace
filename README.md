@@ -12,6 +12,9 @@ Burgers is our area of speciality, with different variations and flavours.
 1. CSS
 
  
+## Project setup and instructions
+I have used svg files, so you'll need to run the index.html on a server. You can also open the index.html file on your browser but it will miss some icons.
+ 
 
 ## Support and contact details
 If you encounter any issues, bugs or have any questions, ideas or concerns, kindly reach out to me via email : davidkiama98@gmail.com
