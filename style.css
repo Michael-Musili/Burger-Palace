@@ -123,6 +123,7 @@ strong {
   justify-content: space-around;
   flex-wrap: wrap;
   row-gap: 5rem;
+  column-gap: 2rem;
 }
 
 .card {
@@ -272,4 +273,67 @@ strong {
 
 .menu__cart img {
   height: 2.5rem;
+}
+
+.section-decker {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  padding: 10rem 1rem;
+  background-color: #e1ebe64b;
+}
+
+.decker__content * {
+  margin-bottom: 2rem;
+}
+
+.decker__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dots :first-child {
+  background-color: #ff6f24;
+}
+
+.dot {
+  height: 2rem;
+  width: 2rem;
+  margin: auto 3px;
+  background-color: #e1ebe6;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.decker__arrow {
+  color: #f6b400;
+  font-size: 10rem;
+  transform: translateY(-25px);
+}
+
+.decker__heading {
+  font-size: 4rem;
+  color: #f6b400;
+}
+
+.decker__text {
+  font-size: 1.8rem;
+}
+
+.decker__images {
+  display: flex;
+  position: relative;
+}
+
+.decker__img {
+  height: 50rem;
+}
+
+.decker__images :first-child {
+  position: absolute;
+  top: 6rem;
+  left: -3rem;
 }
