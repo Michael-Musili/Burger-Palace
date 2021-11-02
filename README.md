@@ -5,12 +5,15 @@ Fingerlicking Good Burgers
 Burgers is our area of speciality, with different variations and flavours.
 
 ## Demo
-[Live DEmo] https://davidkiama.github.io/Burger-Palace/
+[Live DEmo] (https://davidkiama.github.io/Burger-Palace/)
 
 ## Technologies Used
 1. HTML
 1. CSS
 
+## Contributors
+I have written the entire code of this project but the initial design was by [James Muriithi](https://github.com/james-muriithi)
+ 
  
 ## Project setup and instructions
 I have used svg files, so you'll need to run the index.html on a server. You can also open the index.html file on your browser but it will miss some icons.
